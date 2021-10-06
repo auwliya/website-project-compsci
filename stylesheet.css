@@ -29,18 +29,18 @@ ul {
 
   .container {
     position: relative;
-    width: 50%;
+    width: 100%;
   }
 
   .container img {
     width: 100%;
-    height: auto;
+    height: 100%;
   }
 
   .container .btn {
     position: absolute;
-    top: 90%;
-    left: 10%;
+    top: 93%;
+    left: 5%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: rgb(255, 217, 46);
