@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>NWC</title>
     <div>
-        <img src="images/nwc banner image.png" id="banner-image">
+        <img src="images/nwc banner image.png" class="banner-image">
     </div>
     <ul>
         <li><a href="Home.html">Home</a></li>
@@ -27,70 +27,45 @@
         <button class="btn">Book Now</button>
     </div>
 
-<!--<search-widget id="search-block" class="search-function">
-        <div class="container">
-            <section>
-                <div id="search-widget">
-                    <div class="ube-search-widget col-xs-12 col-xs-pad-20-top col-xs-pad-20-bottom col-md-pad-0-top col-md-pad-0-bottom"
-                        aria-labelledby="widget-header" role="group">
-                        <div class="widget-fields-wrapper hidden-sm-down">
-                            <h2 id="widget-header" class="visuallyhidden">Find a cruise</h2>
-                            <div class="widget-fields row">
-                                <div class="destination-field form-field inline-field"><label for="destination-select"
-                                        class="search-label font-size-p1 white">Destination</label><select
-                                        id="destination-select" class="search-select" data-test-id="destination"
-                                        data-track="search-filter" data-track-id="destination">
-                                        <option value="">--pick a destination--</option>
-                                        <option value="A">u021</option>
-                                        <option value="O">u123</option>
-                                        <option value="Z">u22</option>
-                                        <option value="L">uq9</option>
-                                        <option value="N">Marco van Basten complex</option>
-                                        <option value="W">Sportcentre Olympos</option>
-                                    </select></div>
-                                <div class="date-field form-field inline-field"><label for="date-select"
-                                        class="search-label font-size-p1 white">Time</label><select id="date-select"
-                                        class="search-select" data-test-id="date" data-track="search-filter"
-                                        data-track-id="date">
-                                        <option value="">Any</option>
-                                        <option value="1021">8:30-9:00</option>
-                                        <option value="1021">10:30-10:45</option>
-                                        <option value="1021">12:15-13:00</option>
-                                        <option value="1021">14:30-14:45</option>
-                                    </select></div>
-                                <div class="port-field form-field inline-field"><label for="port-select"
-                                        class="search-label font-size-p1 white">Start/End
-                                        Classroom/location</label><select id="port-select" class="search-select"
-                                        data-test-id="port" data-track="search-filter" data-track-id="port">
-                                        <option value="">Any</option>
-                                        <option value="Q">Aula Unic</option>
-                                        <option value="B">uq9</option>
-                                        <option value="B">In front of Unic</option>
-                                        <option value="B">In front of New Welgelegen</option>
-                                        <option value="B">Marco van Basten complex</option>
-                                        <option value="B">Sportcentre Olympos</option>
-                                    </select></div>
-                                <div class="duration-field form-field inline-field"><label for="duration-select"
-                                        class="search-label font-size-p1 white">Cruise Length</label><select
-                                        id="duration-select" class="search-select" data-test-id="duration"
-                                        data-track="search-filter" data-track-id="duration">
-                                        <option value="">Any</option>
-                                        <option value="1_5">15 minutes</option>
-                                        <option value="6_8">30 minutes</option>
-                                        <option value="9_15">45 minutes</option>
-                                        <option value="16_999">1 hour+</option>
-                                    </select></div>
-                                <div id="search-widget-submit" class="white"><a href="Tickets.html"
-                                        class="search-widget-submit-btn green-btn button white font-size-p5"
-                                        data-track="search-source" data-track-id="cruise-widget"
-                                        data-test-id="view-results">Find your cruise!</a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </search-widget>-->
+
+    <ul id="form">
+        <li><label for="destination">Destination:</label>
+            <select id="destination">
+                <option value="">Any</option>
+                <option value="u021">u021</option>
+                <option value="u123">u123</option>
+                <option value="u22">u22</option>
+                <option value="uq9">uq9</option>
+                <option value="MvB">Marco van Basten complex</option>
+                <option value="Olympos">Sportcentre Olympos</option>
+            </select></li>
+        <li><label for="time">Time:</label>
+            <select id="time">
+                <option value="">Any</option>
+                <option value="1">8:30-9:00</option>
+                <option value="2">10:30-10:45</option>
+                <option value="3">12:15-13:00</option>
+                <option value="4">14:30-14:45</option>
+            </select></li>
+        <li><label for="port">Start/end location:</label>
+            <select id="port">
+                <option value="">Any</option>
+                <option value="aula">Aula Unic</option>
+                <option value="uq9">uq9</option>
+                <option value="unic-front">In front of Unic</option>
+                <option value="NW-front">In front of New Welgelegen</option>
+                <option value="MvB">Marco van Basten complex</option>
+                <option value="Olympos">Sportcentre Olympos</option>
+            </select></li>
+        <li><label for="length">Cruise Length:</label>
+            <select id="length">
+                <option value="">Any</option>
+                <option value="15m">15 minutes</option>
+                <option value="30m">30 minutes</option>
+                <option value="45m">45 minutes</option>
+                <option value="1h+">1 hour+</option>
+            </select></li>
+    </ul>
 
     <p>Cruising license: "This is definitely a real company, look at this website, it screams realness."</p>
 </body>
