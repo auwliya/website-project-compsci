@@ -13,7 +13,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #39393A;
 }
 
 li {
@@ -29,7 +29,7 @@ li a {
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: #231F20;
 }
 
 .container {
@@ -48,7 +48,7 @@ li a:hover {
   left: 5%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color: rgb(255, 217, 46);
+  background-color: #ffb91c;
   color: white;
   font-size: 16px;
   padding: 12px 24px;
@@ -62,5 +62,5 @@ li a:hover {
 }
 
 #form {
-  background-color: aqua;
+  background-color: rgb(255, 255, 255);
 }
