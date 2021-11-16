@@ -57,6 +57,10 @@ li a:hover {
   border-radius: 5px;
 }
 
+.container .btn1 {
+  margin-left: 5px;
+}
+
 .container .btn:hover {
   background-color: rgb(255, 147, 23);
 }
