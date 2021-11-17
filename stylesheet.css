@@ -32,6 +32,10 @@ li a:hover {
   background-color: #231F20;
 }
 
+.form{
+  margin: 2%;
+}
+
 .container {
   position: relative;
   width: 100%;
@@ -58,12 +62,13 @@ li a:hover {
 }
 
 .container .btn1 {
-  margin-left: 5px;
+  margin-left: 2%;
+  float: left;
 }
 
 .center {
   margin: auto;
-  width: 70%;
+  width: 62%;
 }
 
 .container .btn:hover {
@@ -72,6 +77,10 @@ li a:hover {
 
 #form {
   background-color: rgb(255, 255, 255);
+}
+
+.bs{
+  text-align: center;
 }
 
 .footer {
